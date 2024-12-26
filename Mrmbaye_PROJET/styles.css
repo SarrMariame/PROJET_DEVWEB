@@ -1,0 +1,1052 @@
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debut0{
+    cursor: pointer;
+    color: white;
+    margin-left: 1000px;
+}
+
+.debut0:hover{
+    color: black;
+}
+
+.debut0 i{
+    margin-top: 5px;
+    color: white;
+}
+
+
+
+.debut{
+   
+    background-color: #28620b;
+    height: 30px;
+}
+
+.body {
+    font-family: 'Tw Cen Mt';
+    font-size: 14px;
+
+
+
+}
+
+.livraison{
+    
+    background-color: #28620b;
+    height:7vh;
+
+}
+
+.livraison h3{
+    
+    font-size: 15px;
+    margin-left: 100px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.livraison span{
+    font-weight: 550;
+    margin-left: 1020px;
+    color: #000000;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+
+.livraison span:hover{
+    color: #ffffff;
+}
+
+
+
+.livraison i{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 17px;
+    padding: 6px;
+}
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 250px;
+  }
+
+  .search-container i{
+    font-size: 15px;
+    color: #333333;
+  }
+  
+  .search-input::placeholder {
+    color: #aaa;
+  }
+  
+  
+
+.fond {
+    margin-top: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70vh;
+    background: url(./images/premium_photo-1661962692059-55d5a4319814.avif) center center no-repeat;
+    filter: brightness(25%);
+    background-size: cover;
+    z-index: -100;
+}
+
+
+
+header {
+    margin-top: 10px;
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.point button {
+    color: #000000;
+    background-color: #28620b;
+    font-weight: 600;
+    margin-left:950px;
+    font-size: 27px;
+    padding: 30px 10px;
+    border-radius: 15px;
+}
+
+.coumba button{
+    color: #28620b;
+    margin-left: 30px;
+    font-size: 25px;
+    
+    padding: 30px;
+    background-color: white;
+    margin-top: 16px;
+    
+}
+
+
+
+nav {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0 10px;
+
+}
+
+nav .logo {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    
+
+}
+
+span {
+    color: #28620b;
+}
+
+nav p {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 65px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    transition: color .3s;
+}
+
+nav ul li a:hover {
+    color: #28620b;
+}
+
+
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: .4s ease;
+}
+
+.menu li a:hover {
+    color: #28620b;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+}
+
+.home1 {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 500px;
+
+}
+
+.home p {
+    color: white;
+    font-size: 29px;
+    padding-top: 20px;
+    margin-left: 600px;
+
+}
+
+.home {
+    padding-bottom: 50px;
+}
+
+.home button {
+    height: 54px;
+
+    color: #fff;
+    background: #28620b;
+    font-size: 23px;
+    padding: 10px 50px;
+    
+    border: none;
+    border-radius: 7px;
+    transition: .4s ease;
+    cursor: pointer;
+    margin-left: 5px;
+    
+}
+
+.home button:hover {
+    background: none;
+    border: 2px solid #28620b;
+}
+
+
+
+.logo button{
+    background-color: #28620b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 1700px;
+    margin-top: 105px;
+    height: 13vh;
+    background: url(./images/premium_photo-1661962692059-55d5a4319814.avif) center center no-repeat;
+    filter: brightness(20%);
+    background-size: cover;
+    z-index: -100;
+   
+}
+
+
+/*DESCRIPTION*/
+
+.text-center {
+
+    text-align: center;
+    margin-top:none;
+    font-size: 25px;
+    
+}
+
+.text-center h1 {
+    margin-top: 8%;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+.text-center p {
+    color: #868660;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.comp img {
+    max-width: 700px;
+    float: left;
+    margin-left: 5rem;
+    
+
+}
+
+.comp {
+    
+    align-items: center;
+    min-height: 70vh;
+    margin: 50px auto;
+
+
+}
+
+
+
+
+.comp_img {
+    max-width: 600px;
+
+    margin-left: 1rem;
+
+
+}
+
+.yama {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 34px;
+    color: black;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.y1 {
+    height: 300px;
+}
+
+.y1 h2 {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.comp1 h1 {
+    margin: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.comp1 h2 {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.comp1 p {
+    font-size: 30px;
+    
+    color: #28620b;
+}
+
+
+.yama {
+
+    width: 700px;
+    height: 40vh;
+    align-items: center;
+}
+
+.comp2{
+    margin-top: 120px;
+}
+
+.comp2 h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+}
+.images2{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+    color: black;
+    font-size: 1.1rem;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.comp2 button{
+    
+    color: #28620b;
+    margin-left: 50px;
+    font-size: 25px;
+    border-radius: 100px;
+    padding: 30px;
+    background-color: white;
+    
+}
+
+.but1 button{
+    margin-left: 100px;
+  
+}
+
+.but2 button{
+    margin-left: 130px;
+}
+
+.comp3 button{
+    transition: .4s ease;
+    cursor: pointer;
+    
+    margin-left: 200px;
+    color: white;
+    background: #28620b;
+}
+
+.comp3 button:hover{
+    background: none;
+    border: 2px solid #28620b;
+    color: black;
+}
+
+.box4{
+    margin-top: 150px;
+}
+
+
+/*PORTFOLIO*/
+
+.légume button {
+    color: rgb(0, 0, 0);
+    background: #28620b;
+    width: 100%;
+    text-align: center;
+    height: 74px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 50px;
+    
+}
+
+.légume1{
+    font-size: 20px;
+    margin-left: 1100px;
+    color: black;
+    cursor: pointer;
+}
+
+.légume1:hover {
+    color: #ffffff;
+}
+
+.légume i{
+    margin-left: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fruit button {
+    color: rgb(0, 0, 0);
+    background:#28620b;
+    width: 100%;
+    text-align: center;
+    height: 74px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.aliment button{
+    color: rgb(0, 0, 0);
+    background: #28620b;
+    width: 100%;
+    text-align: center;
+    height: 74px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 200px;
+}
+
+.fruit i{
+    margin-left: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.vivriere button{
+    color: rgb(0, 0, 0);
+    background: #28620b;
+    width: 100%;
+    text-align: center;
+    height: 74px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 200px;
+}
+
+.vivriere i{
+    margin-left: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.images {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:200px 100px;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.service0{
+    border-radius: 30%;
+    margin-top: 95px;
+   background-color: #ccc3c3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    height: 350px;
+}
+
+.service0 img{
+    
+    margin-left:5px;
+    margin-top: 20px;
+    width: 70%;
+    
+}
+
+.service00 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 90px;
+}
+
+
+.service00 h3{
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #333;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+
+.service1{
+    
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:100px;
+    color: black;
+    font-size: 1.1rem;
+   
+    object-fit: cover;
+   
+}
+
+.service2{
+    height: 65vh;
+    background-color:rgb(216, 216, 216);
+    padding: 15px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:100px;
+    color: black;
+    font-size: 1.1rem;
+    border-radius: 0px;
+   margin-top:240px;
+    object-fit: cover;
+}
+
+.box {
+    height: 280px;
+}
+
+.box2 {
+    height: 280px;
+}
+
+.box3{
+ 
+    margin-top: 120px;
+    text-align: center;
+}
+
+.box3 h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.box3 P{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.box2 i{
+    margin-left:150px;
+    font-size: 90px;
+    color: #678660;
+}
+
+.service1 .box2 h1{
+    color: black;
+}
+
+.box2 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+ font-size: 30px;
+ font-weight: 300;
+ color: #28620b;
+}
+
+
+.box h2 {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    color: #f1773f;
+
+}
+
+.box button {
+    margin-left: 70px;
+    cursor: pointer;
+    background-color: #f1773f;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 17px;
+
+}
+
+.box button:hover {
+    transform: scale(1.05);
+}
+
+.box h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.fleche button {
+    font-size: 25px;
+    width: 55px;
+    padding: 6px ;
+    cursor: pointer;
+    align-items: center;
+}
+
+.fleche button:hover{
+background-color: #333333;
+color: white;
+}
+
+.fleche{
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 150px;
+    margin-left: 580px;
+    color: #40413f;
+}
+
+.fleche i:hover{
+    transform: scale(1.1);
+}
+
+
+/*CONTACT*/
+
+
+
+.contact {
+    font-family: sans-serif;
+    min-height: 55vh;
+    background-color: #ebedf1;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.c1 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.c1 h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.c2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.c3 {
+    text-align: left;
+}
+
+.c3 h3 {
+    margin-bottom: 20px;
+}
+
+form .text-center p {
+    font-size: 1.2rem;
+    color: #cabcbc;
+}
+
+form .text-center h2 {
+    font-size: 5.9rem;
+}
+
+form .separation {
+
+    width: 200%;
+    height: 1.2px;
+    background-color: rgb(128, 141, 141);
+}
+
+form .corps-formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+}
+
+form .corps-formulaire .groupe {
+    position: relative;
+    margin-top: 5px;
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+}
+
+form .corps-formulaire .groupe label {
+    font-size: 1, 5rem;
+    font-weight: bold;
+}
+
+
+
+form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #7fb2e2;
+    border-radius: 5px;
+}
+
+form .corps-formulaire .gauche .groupe i {
+    position: absolute;
+    left: 0;
+    top: 44px;
+    padding: 9px 8px;
+    color: rgb(31, 55, 133);
+}
+
+
+.final {
+    cursor: pointer;
+    position: absolute;
+    padding: px;
+    color: rgb(0, 0, 0);
+    left: 44px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-top: -9px;
+
+}
+
+
+
+.final:hover {
+    transform: scale(1.05);
+}
+
+form .corps-formulaire .droite {
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+form .corps-formulaire .droite .groupe {
+    height: 130%;
+    width: 155%;
+    right: 100px;
+}
+
+form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 2px solid #d2d3db;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+}
+
+
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 27px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-info i {
+    color: #3b3b3b;
+}
+
+.contact-info .pied-formulaire button{
+    align-items: center;
+    margin-top: 50px;
+    background-color:  #333333;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+}
+
+.contact-info .pied-formulaire button:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:920px) {
+    form .corps-formulaire .droite {
+        margin-left: 0px;
+    }
+
+    .container .menu {
+        margin-right: 0px;
+        flex-direction: column;
+        width: 200px;
+    }
+
+    .images .box {
+        width: auto;
+        height: auto;
+    }
+
+    .container .nav-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container .nav-bar .log {
+        font-size: 30px;
+    }
+
+}
+
+
+/*Avant footer*/
+
+
+.box0{
+    font-family: "Gill Sans", sans-serif;
+color: #5c5959;
+margin-left: 55px;
+font-weight: 300;
+font-size: 18px;
+}
+
+.box0 i{
+    margin-left: auto;
+    font-size: 15px;
+}
+
+.box2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:25px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.box2 button{
+    background-color: #5c5959;
+    margin-left: 50px;
+    width: 350px;
+    height: 0.5px;
+}
+
+/*footer*/
+
+footer {
+    
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*boutiquer*/
+
+
+
+
+
+.boxbouton{
+    background-color: #28620b;
+    font-size: 20px;
+    border-radius: 25%;
+    font-size: 20px;
+    width: 80%;
+    margin-top: 50px;
+    height: 115%;
+}
+
+.boxbouton span{
+    color: rgb(226, 216, 216);
+    font-weight: 100;
+}
+
+.imagedébut {
+    margin-top: 80px;
+    
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 340px);
+    gap:10px;
+    color: black;
+    font-size: 1.1rem;
+    object-fit: cover;
+    
+    
+}
+
+.imagedébut img{
+    height: 60vh;
+    width: 1100px;
+    
+    
+}
+
+.imagedébut .box22 img{
+    height: auto;
+    margin-top: 190px;
+    margin-left: 127px;
+    border-radius: 50%;
+    width: 1000px;
+}
+
+
+.imagedébut .box21 img{
+    margin-top: 150px;
+    width: 137%;
+}
+
+
+.imagedébut .box2 button{
+    background-color: #338809;
+    height: 150%;
+    border-radius: 20%;
+    font-size: 20px;
+    width: 70%;
+    cursor: pointer;
+    
+}
+
+.fruitleg img{
+    border-radius: 50%;
+    margin-top: 200px;
+}
+
+.provendus{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    font-weight: 500;
+}
